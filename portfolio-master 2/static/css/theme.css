@@ -1,0 +1,29 @@
+
+
+:root,
+:root.light {
+  --background-color: #fafafa;
+  --text-color: #000000;
+  --shade-100: #E5E5E5;
+  --shade-300: #45D700;
+  --shade-500: #000000;
+  --secondary-color: #000000;
+  --grey-color: #45D700;
+  --grey-text: #000000;
+}
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+  --background-color: #fafafa;
+  --text-color: #000000;
+  --shade-100: #E5E5E5;
+  --shade-300: #45D700;
+  --shade-500: #000000;
+  --secondary-color: #000000;
+  --grey-color: #45D700;
+  --grey-text: #000000;
+  }
+}
